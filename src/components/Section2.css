@@ -1,0 +1,207 @@
+.sec2Container
+{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+}
+.sec2Container .content
+{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colLeft .blockLeft
+{
+    height: 540px;
+    background-image: url("https://sydort.github.io/sportshold/app/img/intro/nike-kyrie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.colLeft .blockLeft .contentTop
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+}
+.colLeft .blockLeft .contentTop h3
+{
+    color: white;
+}
+.colLeft .blockLeft .contentTop h3:nth-child(2)
+{
+    color: #4BD8CC;
+    font-weight: 900;
+}
+.colLeft .blockLeft .contentBottom
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+.colLeft .blockLeft .contentBottom button
+{
+    border: none;
+    padding: 20px 40px;
+    font-size: large;
+    font-weight: 900;
+    color: black;
+    background-color: #4BD8CC;
+}
+.colLeft .blockLeft .contentBottom button:hover
+{
+    cursor: pointer;
+    background-color: #1f9288;
+}
+.colLeft
+{
+    width: 50%;
+    margin: 15px;
+}
+.colRight
+{
+    width: 50%;
+    flex-direction: column;
+}
+.colRight .bottomBlocks
+{
+    display: flex;
+    flex-direction: row;
+}
+.colRight .blocktop
+{
+    height: 255px;
+    background-image: url("https://sydort.github.io/sportshold/app/img/intro/new_arrivals.png");
+    background-repeat: no-repeat;
+    background-color: #FF7170;
+    background-size: contain;
+    margin: 15px;
+    position: relative;
+}
+.colRight .blocktop .content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 20%;
+    right: 0;
+    position: absolute;
+}
+.colRight .blocktop .content h3
+{
+    color: white;
+}
+.colRight .blocktop .content h3:nth-child(2)
+{
+    font-weight: 900;
+}
+.colRight .blocktop .content button
+{
+    border: none;
+    padding: 15px 35px;
+    background-color: #512929;
+    color: white;
+    margin: 20px;
+    font-weight: 900;
+    font-size: large;
+}
+.colRight .blocktop .content button:hover
+{
+    cursor: pointer;
+    box-shadow: 0 0px 5px 0 black;
+}
+.colRight .block1
+{
+    width: 50%;
+    height: 255px;
+    background-image: url("https://sydort.github.io/sportshold/app/img/intro/third_sec.png");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: contain;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    cursor: pointer;
+}
+.colRight .block1 .content
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15%;
+}
+.colRight .block1 .content h3
+{
+    color: white;
+}
+.colRight .block1 .content h3:nth-child(2)
+{
+    color:#FF7170;
+    font-weight: 900;
+}
+.colRight .block2
+{
+    width: 50%;
+    height: 255px;
+    background-image: url("https://sydort.github.io/sportshold/app/img/intro/four_sec.png");
+    background-repeat: no-repeat;
+    background-color: #CECECE;
+    background-size: contain;
+    background-position-y: bottom;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    cursor: pointer;
+}
+.colRight .block2 .content
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+}
+.colRight .block2 .content h3:nth-child(2)
+{
+    font-weight: 900;
+    color: white;
+}
+.productsHeader
+{
+    display: flex;
+    justify-content:center;
+    margin: 0px 35%;
+    margin-top: 90px;
+}
+.productsHeader h1
+{
+    margin: 0px 20px;
+    white-space: nowrap;
+    color: #CECECE;
+    font-weight:500;
+}
+.productsHeader h1:first-child
+{
+    color: black;
+    font-weight: 800;
+}
+.productsHeader h1:hover
+{
+    color: #FF7170;
+    cursor: pointer;
+}
+.products
+{
+    margin: 5%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-content: center;
+    grid-column-gap: 2%;
+    grid-row-gap: 6%;
+    margin-bottom: 10%;
+}

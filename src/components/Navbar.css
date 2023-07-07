@@ -10,3 +10,14 @@
 .activeA{
 
 }
+
+.navbar .right li>.activeA
+{
+    content: '';
+    width: 100%;
+    height: 4px;
+    display: block;
+    background-color: white;
+    position: relative;
+    bottom: -31px;
+}

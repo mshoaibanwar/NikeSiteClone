@@ -26,8 +26,24 @@ p{
 .content{
     width: 50%;
 }
+.content h3{
+    font-size: 30px;
+    margin: 0%;
+    font-weight:normal;
+}
 .content h2{
     color: brown;
+    font-size: 50px;
+    margin: 0%;
+    font-weight: bold;
+}
+.content h1{
+    font-weight: bolder;
+    font-size: 70px;
+    margin: 0%;
+}
+.content p{
+    margin: 30px 0px;
 }
 .pBtn{
     background-color: brown;
@@ -37,4 +53,8 @@ p{
     color: white;
     margin-top: 5%;
     font-weight: bolder;
+}
+.pBtn:hover{
+    cursor: pointer;
+    box-shadow: 4px 4px 7px grey;
 }
